@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringbootCicdGithubApplication {
 	@GetMapping("/hello")
 	public String welcome(){
-		return "welcome to my project!!! this is spring boot project i'm using github actions";
+		return "welcome to my project!!! this is spring boot project i'm using github actions cicd pipeline";
 	}
 
 
