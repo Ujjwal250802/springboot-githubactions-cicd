@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringbootCicdGithubApplication {
 	@GetMapping("/hello")
 	public String welcome(){
-		return "welcome to my project!!!";
+		return "welcome to my project!!! this is spring boot project";
 	}
 
 
@@ -19,3 +19,5 @@ public class SpringbootCicdGithubApplication {
 	}
 
 }
+
+
