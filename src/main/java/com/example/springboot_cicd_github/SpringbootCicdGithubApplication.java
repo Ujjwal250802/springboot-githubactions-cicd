@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringbootCicdGithubApplication {
-	@GetMapping("/welcome")
+	@GetMapping("/hello")
 	public String welcome(){
 		return "welcome to my project!!!";
 	}
